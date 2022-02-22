@@ -89,6 +89,7 @@ section {
   position: absolute;
   bottom: 120px;
   right: 140px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form h3 {
@@ -267,4 +268,20 @@ section {
   color: #fce138;
 }
 
-/* REACH OUT STYLES END */
+.some-class {
+  text-shadow: 5px 10px 15px black;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.25);
+}
+
+header h1 {
+  /* add alongside your existing declarations */
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a {
+  /* and here */
+}
+
+.hero-cta h2 {
+  /* and here */
+}
